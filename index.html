@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Revolt Review</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=sans-serif rel="stylesheet">
+<script src ="main.js"></script>
+
+</head>
+
+
+<body>
+
+<h1>most awesome quiz in east-africa!</h1>
+
+<form id ="quiz" name = "quiz">
+
+
+<p>What is the capital of Tanzania?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p>what is the capital of Kenya?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Nairobi"> Nairobi<br>
+<input type = "radio" id = "mc" name = "question2" value = "Naivasha"> Naivasha<br>
+
+<P>what is the capital of Uganda?</p>
+
+  <input type = "radio" id = "mc" name = "question3" value = "Jinja"> Jinja<br>
+  <input type = "radio" id = "mc" name = "question3" value = "Kampala"> Kampala<br>
+
+
+<input id = "button" type = "button" value "you are finished!" onclick = "check();"></input>
+</form>
+
+<div id = "after submit">
+
+<P id = "message"></p>
+<p id = "number_correct"></p>
+<img id = "picture">
+</div>
+</body>
+
+</html>
